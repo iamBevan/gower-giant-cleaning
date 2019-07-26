@@ -1,0 +1,77 @@
+// services //
+
+#section2 {
+	width: 100%;
+}
+
+.services-section {
+	// background-color: #072030;
+	color: white;
+	width: 1200px;
+	margin: auto;
+}
+
+.services-container {
+	padding: 66px 0 0 0;
+}
+
+.service {
+	width: 50%;
+	height: 400px;
+	float: left;
+	padding: 0 20px 100px 20px;
+	// border: 1px white solid;
+	// background-color: gray;
+
+	li {
+		list-style: none;
+		font-size: 16px;
+		padding: 10px 0 0 20px;
+		text-align: left;
+	}
+
+	h1 {
+		font-size: 9px;
+		letter-spacing: 1px;
+		font-weight: 100;
+		line-height: 15px
+	}
+
+	h2 {
+		font-size: 32px;
+		width: 100%;
+		line-height: 48px;
+	}
+
+	.promise {
+		width: 50%;
+		height: 150;
+		float: left;
+		padding: 0 20px 100px 20px;
+		background-color: gray;
+		border: 1px white solid;
+	}
+
+	.picture {
+		width: 30%;
+		height: 300px;
+		float: left;
+		padding-top: 65px;
+
+	}
+
+	.list {
+		width: 70%;
+		float: left;
+		// background-color: blue;
+		height: 300px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.service {
+		padding: 0 20px 50px 20px;
+		width: 100%;
+	}
+}

@@ -1,0 +1,73 @@
+// contact //
+
+.contact-container {
+	background-color: #072030;
+	color: white;
+	width: 1200px;
+	height: 550px;
+	margin: auto;
+
+	.contact {
+		width: 50%;
+		height: 400px;
+		float: left;
+        // border: 1px white solid;
+		text-align: left;
+
+		h2 {
+			text-align: center;
+		}
+
+		ul {
+			padding: 100px 0 0 110px;
+			li {
+				padding: 10px;
+				list-style: none;
+				font-size: 20px;
+				// font-family: 'Cormorant Garamond';
+
+				.contact-span {
+					font-size: 15px;
+					padding-left: 15px;
+					font-family: 'Cormorant Garamond';				}
+			}
+		}
+
+		.message {
+			padding: 50px 0 0 100px;
+		}
+
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.contact {
+		padding: 0 20px 50px 20px;
+		width: 100%;
+	}
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+
+	.bgimg-1,
+	.bgimg-2,
+	.bgimg-3 {
+		background-attachment: scroll;
+		min-height: 400px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.overview-text {
+		padding: 50px 0 0 0;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.overview-container {
+		padding: 0px 20px 100px 20px;
+		background-color: #072030;
+		color: #c8c4c0;
+	}
+}

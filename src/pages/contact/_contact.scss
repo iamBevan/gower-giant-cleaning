@@ -1,0 +1,38 @@
+// services //
+
+#section4 {
+	width: 100%;
+}
+
+.contact-section {
+	background-color: #072030;
+	color: white;
+	width: 1200px;
+	margin: auto;
+}
+
+.contact-container {
+	padding: 66px 0 0 0;
+}
+
+.contact {
+	width: 50%;
+	height: 400px;
+	float: left;
+	padding: 0 20px 100px 20px;
+	border: 1px white solid;
+	
+	li {
+		list-style: none;
+		font-size: 20px;
+		padding: 40px 0 0 0;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.contact {
+		padding: 0 20px 50px 20px;
+		width: 100%;
+	}
+}
