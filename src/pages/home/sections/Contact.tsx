@@ -5,15 +5,14 @@ import './styles/contact.scss';
 const Contact: React.FC<{}> = () => (
     <section
         style={{
-            borderTop: "solid #072030 1px",
             backgroundColor: "#072030",
             color: "#ffffff",
-            padding: '50px 0 0 0'
         }}
     >
 
         <Fade duration={3000}><h1 className="contact-heading">Contact</h1></Fade>
         <div className="contact-container">
+            <div className="flex-container">
             <Fade duration={3000}>
                 <div className="contact">
                     <h2>Gower Giant Cleaning</h2>
@@ -30,18 +29,19 @@ const Contact: React.FC<{}> = () => (
                     <h2>Send us a message</h2>
                     <div className="message">
                         <p>Name</p>
-                        <input type="text" name="search" placeholder="Search.." />
+                        <input type="text" name="search" />
                         <p>Company Name</p>
-                        <input type="text" name="search" placeholder="Search.." />
+                        <input type="text" name="search" />
                         <p>Telephone</p>
-                        <input type="text" name="search" placeholder="Search.." />
+                        <input type="text" name="search" />
                         <p>Message</p>
                         <form>
-                            <textarea>...</textarea>
+                            <textarea></textarea>
                         </form>
                     </div>
                 </div>
             </Fade>
+            </div>
         </div>
     </section>
 );

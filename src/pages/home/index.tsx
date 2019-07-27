@@ -5,11 +5,18 @@ import { Services } from './sections/Services';
 import { Contact } from './sections/Contact';
 import { About } from './sections/About';
 
-import './styles.scss';
+import logoMain from './assets/images/logoMain.png';
+
+import './home.scss';
 
 const Landing: React.SFC<{}> = () => (
     <>
-        <div className="bgimg-1" id="landing-page"></div>
+        <div className="bgimg-1">
+            <img className="landing-img" src={logoMain} alt=""/>
+            <h1>Gower Giant Cleaning</h1>
+            <h2>Established 1980</h2>
+        </div>
+        
     </>
 );
 

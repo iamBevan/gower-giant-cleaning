@@ -18,7 +18,6 @@ const Services: React.SFC<{}> = () => (
             borderTop: "solid #072030 1px",
             backgroundColor: "#072030",
             color: "#ffffff",
-            height: "100%"
         }}
     >
         <div className="services-container">
@@ -27,64 +26,53 @@ const Services: React.SFC<{}> = () => (
                 <div className="flex-container">
                     <Fade duration={3000}>
                         <div className="service">
+                            <img src={window} alt="" />
                             <h2>Window Cleaning</h2>
-                            <div>
-                                <img src={window} alt="" />
-                                <ul>
-                                    <li>Domestic and Commercial</li>
-                                    <li>Exterior and Interior</li>
-                                    <li>Water-fed Pole System</li>
-                                    <li>Traditional</li>
-
-                                </ul>
-                            </div>
-                            <div className="description">
+                            <ul>
+                                <li>Domestic and Commercial</li>
+                                <li>Exterior and Interior</li>
+                                <li>Water-fed Pole System</li>
+                                <li>Traditional</li>
+                            </ul>
+                            {/* <p className="description">
                                 For 40 years window cleaning has been our main area of expertise.
                                 We're highly experienced and flexible enough to meet any of your cleaning needs.
-                            </div>
-                            
+                            </p> */}
                         </div>
                     </Fade>
                     <Fade duration={3000}>
                         <div className="service">
-                            <h2>Pressure Washing</h2>
                             <img src={jet} alt="" />
-                            <div>
+                            <h2>Pressure Washing</h2>
                                 <ul>
                                     <li>Patios and Driveways</li>
                                     <li>Paths and Walkways</li>
                                     <li>Conservatories</li>
                                     <li>Any uPVC</li>
                                 </ul>
-                            </div>
-                            <div className="description">
+                            {/* <p className="description">
                                     Domestic or Commerical; with our high-powered Jet washer
                                     we've been getting great results for years.
-                            </div>
+                            </p> */}
                         </div>
                     </Fade>
-                </div>
-                <div className="flex-container">
                     <Fade duration={3000}>
                         <div className="service">
-                            <h2>Guttering and uPVC</h2>
                             <img src={gut} alt="" />
-                            <div>
-                                <ul>
-                                    <li>Guttering - Empty and Clean</li>
-                                    <li>Fascias and Soffits</li>
-                                    <li>Gutter Protection</li>
-                                    <li>Small Repairs</li>
-                                </ul>
-                            </div>
-                            <br/>
-                            <div className="description">
+                            <h2>Guttering/uPVC</h2>
+                            <ul>
+                                <li>Guttering - Empty and Clean</li>
+                                <li>Fascias and Soffits</li>
+                                <li>Gutter Protection</li>
+                                <li>Small Repairs</li>
+                            </ul>
+                            {/* <p className="description">
                                     Using our specialist gutter vacuum system and long-reach jet washer we're
                                     confident we can give new life to your uPVC.
-                            </div>
+                            </p> */}
                         </div>
                     </Fade>
-                    <Fade duration={3000}>
+                    {/* <Fade duration={3000}>
                         <div className="service">
                             <h2>Our Promise</h2>
                             <div className="promise">
@@ -104,7 +92,7 @@ const Services: React.SFC<{}> = () => (
                                 <img src={prices} alt=""/>
                             </div>
                         </div>
-                    </Fade>
+                    </Fade> */}
                 </div>
             </div>
         </div>

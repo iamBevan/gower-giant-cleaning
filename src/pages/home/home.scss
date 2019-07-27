@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:100,300,500,700&display=swap');
+
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+	background-image: url('./assets/images/water.gif');
+	min-height: 100vh;
+	position: relative;
+	background-size: cover;
+	color: #072030;
+
+	h1 {
+		margin: 0;
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+	h2 {
+		margin: -10px;
+		font-size: 24px;
+		font-weight: 500;
+	}
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+	background-image: url("/w3images/parallax2.jpg");
+	min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+	background-image: url("/w3images/parallax3.jpg");
+	min-height: 400px;
+}
+
+.landing-img {
+	margin: 75px 0 0 0;
+	z-index: 3;
+	width: 300px;
+	height: 300px;
+}
