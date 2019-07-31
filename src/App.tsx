@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/main.scss';
-import { Navbar } from './pages/home/components/Navbar';
+import { Navbar } from './components/Navbar';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home } from './pages/home/';
 import { Services } from './pages/services';
 import { Prices } from './pages/prices';
 import { Contact } from './pages/contact';
-import { Footer } from './pages/home/components/Footer';
+import { Footer } from './components/Footer';
 
 
 

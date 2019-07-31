@@ -1,7 +1,7 @@
 // about //
 
 $border: 0px solid #ffffff;
-$font: 'Cormorant Garamond';
+$font: 'Dosis';
 
 .about-section {
 	padding: 50px 0 50px 0;
@@ -16,10 +16,17 @@ $font: 'Cormorant Garamond';
 
 	h1 {
 		padding-top: 20px;
+		line-height: 54px;
+		font-size: 40px;
+		margin: 0;
+		font-family: $font;
+		letter-spacing: 4px;
 	}
 
 	p {
-		padding-top: 50px;
+		padding-top: 30px;
+		font-size: 20px;
+		letter-spacing: 1px;
 	}
 
     img {

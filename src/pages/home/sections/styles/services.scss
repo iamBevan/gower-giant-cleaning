@@ -1,7 +1,7 @@
 // services //
 
 $border: 0px solid #ffffff;
-$font: 'Cormorant Garamond';
+$font: 'Dosis';
 
 .services-container {
 	padding: 50px 0 100px 0;
@@ -12,23 +12,27 @@ $font: 'Cormorant Garamond';
 	h1 {
 		border: $border;
 		line-height: 54px;
-		font-size: 36px;
+		font-size: 40px;
 		padding-bottom: 50px;
 		margin: 0;
+		font-family: $font;
+		letter-spacing: 4px;
 	}
 
 	ul {
-		font-family: 'Cormorant Garamond';
-		font-size: 18px;
+		font-family: $font;
+		font-size: 20px;
 		line-height: 24px;
 		border: $border;
 		padding: 0;
 		margin: 0;
+		letter-spacing: 2px;
 
 		li {
 			list-style: none;
 			border: $border;
-			margin: 0;
+			margin: 10px;
+			font-weight: 200;
 		}
 	}
 	
@@ -43,23 +47,26 @@ $font: 'Cormorant Garamond';
 		height: 100%;
 		// padding: 10px 70px 0px 70px;
 		border: $border;
-        margin-bottom: 30px;
+        margin: 10px 10px 30px 10px;
         // border-bottom: white 1px solid;
 		// background: darksalmon;
 
 		img {
-			width: 50px;
-			height: 50px;
+			width: 120px;
+			height: 120px;
 			border: $border;
-			margin: 50px 50px 0 60px;
+			// margin: 50px 50px 0 60px;
 		}
 
 		h2 {
+			margin-top: 30px;
 			line-height: 25px;
 			font-size: 22px;
-			letter-spacing: 3px;
+			letter-spacing: 5px;
 			border: $border;
 			padding: 0 0 40px 0;
+			font-family: $font;
+			// font-weight: 700;
 		}
 
 		.description {
@@ -67,7 +74,7 @@ $font: 'Cormorant Garamond';
 			line-height: 24px;
 			text-align: left;
 			border: $border;
-			font-family: 'Cormorant Garamond';
+			font-family: $font;
 			float: left;
 			margin: 30px 0 0 0;
 

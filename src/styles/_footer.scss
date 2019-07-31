@@ -1,25 +1,40 @@
 footer {
-    padding-top: 50px;
     color: #072030;
-    margin: 50px;
-    height: 250px;
+    height: 50px;
+    margin: 0 0 50px 0;
 
     ul {
         list-style: none;
-        margin: 0;
+        text-align: center;
         padding: 0;
-        font-family: 'Cormorant Garamond';
+        margin: 0;
+
+        li {
+            font-family: 'Dosis', sans-serif;
+            font-weight: 300;
+            height: 100%;
+            // border-bottom: 1px solid #888;
+            display: inline-block;
+            letter-spacing: 1px;
+            padding: 0px 0 0 0;
+            margin: 30px 10px 0 10px;
+        }
     }
 
     p {
-        font-family: 'Cormorant Garamond';
+    }
+
+    .icons {
+        fill: #072030;
     }
 
     .footer-cont {
-        width: 33%;
+        margin: auto;
         height: 100%;
-        float: left;
         padding: 0;
-        border: 1px white solid;
     }
+}
+
+.icons {
+    fill: #072030;
 }

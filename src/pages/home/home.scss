@@ -9,6 +9,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: -1;
 
 }
 
@@ -21,12 +22,14 @@
 	color: #072030;
 
 	h1 {
-		margin: 0;
-		font-size: 50px;
-		font-weight: 700;
-	}
+        font-family: 'Cinzel';
+        font-size: 25px;
+        margin: 0 0 10px 0;
+        font-weight: 700;
+    }
 
 	h2 {
+		font-family: 'Cinzel';
 		margin: -10px;
 		font-size: 24px;
 		font-weight: 500;
@@ -47,8 +50,46 @@
 }
 
 .landing-img {
-	margin: 75px 0 0 0;
-	z-index: 3;
+	margin: 145px 0 0;
+	z-index: -1;
 	width: 300px;
 	height: 300px;
+	position: relative;
+	z-index: -1;
 }
+
+.bgimg-1 h1 {
+	margin: 0;
+	font-size: 60px;
+	font-weight: 700;
+	z-index: 1;
+	position: relative;
+	color: white;
+}
+
+.bgimg-1 h2 {
+	margin: -10px;
+	font-size: 34px;
+	font-weight: 500;
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+
+.bgimg-1 .img {
+	margin: 100px 0 0 0;
+	height: 300px;
+	width: 300px;
+	z-index: 3;
+}
+
+.bgimg-1:after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background-color: black;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	}

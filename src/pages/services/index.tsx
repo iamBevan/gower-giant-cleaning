@@ -11,7 +11,13 @@ const Services: React.FC<{}> = () => (
             backgroundColor: "072030"
         }}
     >
-        <Fade duration={3000}><h1>services2</h1></Fade>
+        <Fade duration={3000}><h1>Services</h1></Fade>
+        <h2>Window Cleaning</h2>
+        <img src="https://via.placeholder.com/1000x500" alt=""/>
+        <h2>Pressure Washing</h2>
+        <img src="https://via.placeholder.com/1000x500" alt=""/>
+        <h2>Guttering/uPVC</h2>
+        <img src="https://via.placeholder.com/1000x500" alt=""/>
     </section>
 );
 
