@@ -50,7 +50,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£17.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
-            <td>Get tits out for the lads</td>
+            <td>-</td>
             <td>£25.00</td>
         </tr>
         <tr>
@@ -119,7 +119,7 @@ const JetWashTable: React.FC<{}> = () => (
             <td>£17.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
-            <td>Get tits out for the lads</td>
+            <td>-</td>
             <td>£25.00</td>
         </tr>
         <tr>
@@ -188,7 +188,7 @@ const GutteringTable: React.FC<{}> = () => (
             <td>£17.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
-            <td>Get tits out for the lads</td>
+            <td>-</td>
             <td>£25.00</td>
         </tr>
         <tr>
@@ -213,11 +213,12 @@ const GutteringTable: React.FC<{}> = () => (
 const Prices: React.SFC<{}> = () => (
     <section
         style={{
-            backgroundColor: "#072030"
+            backgroundColor: "#072030",
+            height: '100vh'
         }}
     >
         <Fade duration={3000}><h1 className="services-heading">Prices</h1></Fade>
-        <div>
+        <div className="table-container">
             <Tabs>
                 <TabList>
                     <Tab>Windows</Tab>

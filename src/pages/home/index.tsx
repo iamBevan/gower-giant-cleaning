@@ -9,10 +9,10 @@ import logoMain from './assets/images/logo.svg';
 
 import './home.scss';
 
-const Landing: React.SFC<{}> = () => (
+const LandingLogo: React.SFC<{}> = () => (
     <>
         <div className="bgimg-1">
-            <img className="img" src={logoMain} alt=""/>
+            <img src={logoMain} alt=""/>
             <h1>Gower Giant Cleaning</h1>
             <h2>Established 1980</h2>
         </div>
@@ -24,7 +24,7 @@ class Home extends React.Component<{}> {
     render() {
         return (
             <Router>
-                <Landing />
+                <LandingLogo />
                 <Services />
                 <About />
                 <Contact />
@@ -33,4 +33,4 @@ class Home extends React.Component<{}> {
     }
 }
 
-export { Home };
+export { Home, LandingLogo };

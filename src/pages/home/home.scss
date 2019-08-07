@@ -15,11 +15,12 @@
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-	background-image: url('./assets/images/water.gif');
+	background-image: url('./assets/images/water.jpg');
 	min-height: 100vh;
 	position: relative;
 	background-size: cover;
 	color: #072030;
+	padding-top: 180px;
 
 	h1 {
         font-family: 'Cinzel';
@@ -71,6 +72,14 @@
 	margin: -10px;
 	font-size: 34px;
 	font-weight: 500;
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+
+.bgimg-1 img {
+	height: 300px;
+	width: 300px;
 	position: relative;
 	z-index: 1;
 	color: white;
