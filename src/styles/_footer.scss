@@ -1,40 +1,58 @@
 footer {
     color: #072030;
-    height: 30px;
-    margin: 0 0 50px 0;
+    height: 50px;
+    margin: 0 0 0px 0;
+    margin: auto;
+    padding: 0;
+
+    a {
+        height: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        transition: .3s background-color;
+        text-align: center;
+        padding: 10px 0 0 0;
+        margin: 0;
+        display: block;
+
+        .icons {
+            fill: #072030;
+        }
+
+        &:hover {
+            background-color: #072030;
+            
+            .icons {
+                fill: #ffffff;
+            }
+
+        }
+
+        &:active {
+            
+            background-color: #ffffff;
+            color: #072030;
+            cursor: default;
+        }
+    }
 
     ul {
         list-style: none;
         text-align: center;
         padding: 0;
         margin: 0;
+        height: 100%;
 
         li {
-            font-family: 'Dosis', sans-serif;
-            font-weight: 300;
+            display: inline-flex;
+            flex-direction: column;
+            letter-spacing: 2px;
+            padding: 0;
+            margin: 0;
+            width: 5em;
             height: 100%;
-            // border-bottom: 1px solid #888;
-            display: inline-block;
-            letter-spacing: 1px;
-            padding: 0px 0 0 0;
-            margin: 25px 10px 0 10px;
         }
     }
 
-    p {
-    }
-
-    .icons {
-        fill: #072030;
-    }
-
-    .footer-cont {
-        margin: auto;
-        height: 100%;
-        padding: 0;
-    }
-}
-
-.icons {
-    fill: #072030;
+    
 }

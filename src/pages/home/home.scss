@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel:100,300,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap');
 
 
 /* Create a Parallax Effect */
@@ -10,7 +10,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: -1;
-
 }
 
 /* First image (Logo. Full height) */
@@ -23,82 +22,87 @@
 	padding-top: 180px;
 
 	h1 {
-        font-family: 'Cinzel';
-        font-size: 25px;
-        margin: 0 0 10px 0;
-        font-weight: 700;
+        font-family: 'Cinzel';		
+		margin: 0;
+		font-size: 60px;
+		font-weight: 700;
+		z-index: 1;
+		position: relative;
+		color: white;
     }
 
 	h2 {
 		font-family: 'Cinzel';
 		margin: -10px;
-		font-size: 24px;
-		font-weight: 500;
+		font-weight: 100;
+		font-size: 34px;
+		position: relative;
+		z-index: 1;
+		color: white;
 	}
 
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-	background-image: url("/w3images/parallax2.jpg");
-	min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-	background-image: url("/w3images/parallax3.jpg");
-	min-height: 400px;
-}
-
-.landing-img {
-	margin: 145px 0 0;
-	z-index: -1;
-	width: 300px;
-	height: 300px;
-	position: relative;
-	z-index: -1;
-}
-
-.bgimg-1 h1 {
-	margin: 0;
-	font-size: 60px;
-	font-weight: 700;
-	z-index: 1;
-	position: relative;
-	color: white;
-}
-
-.bgimg-1 h2 {
-	margin: -10px;
-	font-size: 34px;
-	font-weight: 500;
-	position: relative;
-	z-index: 1;
-	color: white;
-}
-
-.bgimg-1 img {
-	height: 300px;
-	width: 300px;
-	position: relative;
-	z-index: 1;
-	color: white;
-}
-
-.bgimg-1 .img {
-	margin: 100px 0 0 0;
-	height: 300px;
-	width: 300px;
-	z-index: 3;
-}
-
-.bgimg-1:after {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	content: '';
-	background-color: black;
-	opacity: 0.4;
-	top: 0;
-	left: 0;
+	img {
+		height: 300px;
+		width: 300px;
+		position: relative;
+		z-index: 1;
+		color: white;
 	}
+
+	&:after {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		content: '';
+		background-color: black;
+		opacity: 0.4;
+		top: 0;
+		left: 0;
+		}
+}
+
+@media screen and (max-width: 640px) {
+	.bgimg-1 {
+		h1 {	
+		font-size: 40px;
+		}
+
+		h2 {
+			font-size: 22px;
+			font-weight: 100;
+		}
+	}
+}
+
+
+// /* Second image (Portfolio) */
+// .bgimg-2 {
+// 	background-image: url("/w3images/parallax2.jpg");
+// 	min-height: 400px;
+// }
+
+// /* Third image (Contact) */
+// .bgimg-3 {
+// 	background-image: url("/w3images/parallax3.jpg");
+// 	min-height: 400px;
+// }
+
+// h1 {
+// 	font-family: 'Cinzel';		
+// 	margin: 0;
+// 	font-size: 40px;
+// 	font-weight: 700;
+// 	z-index: 1;
+// 	position: relative;
+// 	color: white;
+// }
+
+// h2 {
+// 	font-family: 'Cinzel';
+// 	margin: -10px;
+// 	font-size: 22px;
+// 	position: relative;
+// 	z-index: 1;
+// 	color: white;
+// 	font-weight: 100;
+// }

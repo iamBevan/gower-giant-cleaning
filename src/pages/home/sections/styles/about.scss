@@ -4,18 +4,17 @@ $border: 0px solid #ffffff;
 $font: 'Dosis';
 
 .about-section {
-	padding: 50px 0 50px 0;
-	width: 1200px;
+	padding: 100px 0 100px 0;
+	display: flex;
+	justify-content: center;
 }
 
 .about-container {
-    width: 50%;
-    float: left;
-	padding: 20px;
+    width: 600px;
 	font-family: $font;
 
 	h1 {
-		padding-top: 20px;
+		padding: 0 0 50px 0;
 		line-height: 54px;
 		font-size: 40px;
 		margin: 0;
@@ -24,9 +23,11 @@ $font: 'Dosis';
 	}
 
 	p {
-		padding-top: 30px;
+		padding: 0 30px 0 30px;
+		margin: 0;
 		font-size: 20px;
 		letter-spacing: 1px;
+		text-align: justify;
 	}
 
     img {
@@ -34,3 +35,25 @@ $font: 'Dosis';
         height: 100%;
     }
 }
+
+@media screen and (max-width: 640px) {
+	
+	.about-section {
+		flex-direction: column;
+	}
+
+	.about-container {
+		width: 100%;
+
+		img {
+			margin: 50px 0 0 0;
+			width: 300px;
+			height: 100%;
+		}
+
+		p {
+			padding: 0 35px 0 35px;
+		}
+	}
+}
+

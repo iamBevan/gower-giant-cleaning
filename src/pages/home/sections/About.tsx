@@ -13,8 +13,8 @@ const About: React.SFC<{}> = () => (
                     In 1980 Alan founded the business with a small group of loyal customers, some
                     of whom still remain today. He went on to specialise in window cleaning and guttering
                     for the next 30 years.
-                    in 2010 Julian started with his father; since they have expanded the business; adding
-                    customers and services; such as jet washing and fascia cleaning.
+                    in 2010 Julian started with his father since they have expanded the business adding
+                    customers and services such as jet washing and fascia cleaning.
                 </p>
             </Fade>
         </div>

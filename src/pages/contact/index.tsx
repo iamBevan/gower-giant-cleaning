@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import './_contact.scss';
+import './contact.scss';
 import landingLogo from '../home/assets/images/logo.svg';
 import { phone, location, email, facebook } from '../home/sections/Contact';
 
