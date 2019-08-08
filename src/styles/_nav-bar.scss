@@ -70,3 +70,37 @@ header {
         }
     }
 }
+
+@media screen and (max-width: 420px) {
+	header {
+        nav {
+            border-bottom: 1px solid #ffffff;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            color: #ffffff;
+            line-height: 50px;
+
+            a {
+                font-size: 20px;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #072030;
+
+                }
+
+                &:active {
+                    background-color: #c8c4c0;
+                    color: #072030;
+                    cursor: default;
+                }
+
+                div {
+                    width: 75px;
+                }
+            }
+        }
+    }
+}

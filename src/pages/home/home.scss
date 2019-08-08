@@ -74,6 +74,29 @@
 	}
 }
 
+@media screen and (max-width: 420px) {
+	.bgimg-1 {
+		h1 {
+		padding: 5px 0 0 0;	
+		font-size: 24px;
+		}
+
+		h2 {
+			padding: 5px 0 0 0;
+			font-size: 13px;
+			font-weight: 100;
+		}
+
+		img {
+			height: 150px;
+			width: 150px;
+			position: relative;
+			z-index: 1;
+			color: white;
+		}
+	}
+}
+
 
 // /* Second image (Portfolio) */
 // .bgimg-2 {
