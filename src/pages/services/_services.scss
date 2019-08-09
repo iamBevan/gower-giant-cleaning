@@ -67,3 +67,145 @@ $border: 0px solid #ffffff;
 	text-align: left;
 	height: auto;
 }
+
+@media screen and (max-width: 640px) {
+    .flex-container {
+		flex-direction: column;
+		font-family: 'Dosis';
+		
+	
+		h2 {
+			border: $border;
+			font-size: 25px;
+			letter-spacing: 2px;
+		}
+	
+		ul {
+			font-size: 15px;
+			list-style: none;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 0;
+		}
+	
+		p {
+	
+			font-size: 15px;
+			line-height: 30px;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 10px;
+		}
+	}
+	
+	.description-img1 {
+		background-image: url('./window-cleaning.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-img2 {
+		background-image: url('./jetwash.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-img3 {
+		background-image: url('./guttering.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-text {
+		margin: 0;
+		// background-color: lightgray;
+		width: 100%;
+		text-align: center;
+		line-height: 75px;
+		font-size: 10px;
+		height: 900px;
+		padding: 0px;
+		z-index: 3;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.flex-container {
+		flex-direction: column;
+		font-family: 'Dosis';
+		
+	
+		h2 {
+			border: $border;
+			font-size: 25px;
+			letter-spacing: 2px;
+		}
+	
+		ul {
+			font-size: 15px;
+			list-style: none;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 0;
+		}
+	
+		p {
+	
+			font-size: 15px;
+			line-height: 30px;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 10px;
+		}
+	}
+	
+	.description-img1 {
+		background-image: url('./window-cleaning.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-img2 {
+		background-image: url('./jetwash.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-img3 {
+		background-image: url('./guttering.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 500px;
+	}
+	
+	.description-text {
+		margin: 0;
+		// background-color: lightgray;
+		width: 100%;
+		text-align: center;
+		line-height: 75px;
+		font-size: 10px;
+		height: 900px;
+		padding: 0px;
+		z-index: 3;
+		height: auto;
+	}
+}

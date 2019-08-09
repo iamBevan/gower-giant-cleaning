@@ -4,9 +4,6 @@ import './_services.scss';
 
 const Services: React.FC<{}> = () => (
     <section style={{ borderBottom: '1px solid #072030' }}>
-        {/* <Fade duration={3000}><h1>Services</h1></Fade> */}
-
-        {/* <img src={windowCleaning} style={{ height: '500px', width: '1000px' }} alt=""/> */}
         <div className="flex-container" style={{ color: '#072030' }}>
             <div className="description-img1">
                 &nbsp;

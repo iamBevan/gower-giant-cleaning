@@ -43,7 +43,7 @@ table {
 
 .table-container {
     color: white;
-    width: 1200px;
+    // width: 1200px;
     margin: auto;
     font-family: $font;
 }
@@ -65,7 +65,7 @@ table {
     display: inline-block;
     border: 1px solid transparent;
     border-bottom: none;
-    bottom: -1px;
+    bottom: 1px;
     position: relative;
     list-style: none;
     padding: 6px 12px;
