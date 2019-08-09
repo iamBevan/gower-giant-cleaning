@@ -1,37 +1,55 @@
 import * as React from 'react';
-import Fade from 'react-reveal/Fade';
-
 import './contact.scss';
 import landingLogo from '../home/assets/images/logo.svg';
-import { phone, location, email, facebook } from '../home/sections/Contact';
+import { email, facebook, phone, location } from '../../components/assets/svgs'
 
 
 const Contact: React.SFC<{}> = () => (
-    <section>
-        {/* <Fade duration={3000}><h1 className="services-heading">Contact</h1></Fade> */}
-        <div className="flex-container" style={{ backgroundColor: '#072030', color: '#ffffff' }}>
-            
-            <div className="contact-text">
-                <img src={landingLogo} alt=""/>
-                <h1>Gower Giant Cleaning</h1>
-                <h2>Established 1980</h2>
-                <ul>
-                    <li>{phone}</li>
-                    <li>{email}</li>
-                    <li>{location}</li>
-                    <li>{facebook}</li>
-                    <li></li>
-                </ul>
-                <p>
-                    We've been cleaning windows in the Gower area for the past 40 years.
-                    Our small experienced team currently serves hundreds of satisfied customers Mon - Fri.
-                </p>
+    <section className="contact-page-section">
 
+            <div className="contact-page-text">
+                <img src={landingLogo} alt="" />
+                <h1>Gower Giant Cleaning</h1>
+                <h2 className="established">Established 1980</h2>
+                <div className="flex-container-list">
+                    <div className="contact-page-details">
+                        <div>
+                            {email(40, 40)}
+                        </div>
+                        <div className="contact-page-text">
+                            julian@gowergiantcleaning.co.uk
+                        </div>
+                    </div>
+                    <div className="contact-page-details">
+                        <div>
+                            {phone(40, 40)}
+                        </div>
+                        <div className="contact-page-text">
+                            07843 227062
+                        </div>
+                    </div>
+                    <div className="contact-page-details">
+                        <div>
+                            {location(40, 40)}
+                        </div>
+                        <div className="contact-page-text">
+                            Bishopston, Swansea
+                        </div>
+                    </div>
+                    <div className="contact-page-details">
+                        <div>
+                            {facebook(40, 40)}
+                        </div>
+                        <div className="contact-page-text">
+                            Gower Giant Cleaning
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="contact-img">
+
+            <div className="contact-page-img">
                 &nbsp;
             </div>
-        </div>
     </section>
 );
 
