@@ -58,8 +58,8 @@ const Services: React.FC<{}> = () => (
                 </ul>
                 <p>
                     Regularly maintaining your guttering can extend it's life by decades. We use 
-
-
+                    the latest SkyVac High-reach equipment alongside our high-reach jet washer to
+                    ensure a high quality clean.
                 </p>
 
             </div>

@@ -58,6 +58,39 @@ $font: 'Dosis';
 	margin: 0 15px 0 15px;
 }
 
+@media screen and (max-width: 770px) {
+
+	.contact-section {
+	
+		h1 {
+			padding-bottom: 100px;
+		}
+	
+	}
+
+	.contact-container {
+		flex-direction: column;
+		padding: 0px 0 0px 0;
+		height: 100%;
+
+
+		.flex-container {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+
+			.contact {
+				display: block;
+			}
+
+			.contact-text {
+				padding: 10px 0 25px 0;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 640px) {
 
 	.contact-section {
