@@ -143,6 +143,8 @@ $border: 0px solid #ffffff;
 	.flex-container {
 		flex-direction: column;
 		font-family: 'Dosis';
+		.description-img2 { order: 1 }
+		.description-text { order: 2 }
 		
 	
 		h2 {
