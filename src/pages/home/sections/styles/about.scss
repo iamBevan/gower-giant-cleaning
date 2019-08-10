@@ -92,21 +92,39 @@ $font: 'Dosis';
 }
 
 @media screen and (max-width: 640px) {
-
 	.about-section {
 		flex-direction: column;
-	}
 
-	.about-container {
-		width: 100%;
-
-		img {
-			width: 300px;
-			height: 100%;
+		.about-container {
+			width: 100%;
+	
+			img {
+				width: 300px;
+				height: 100%;
+			}
+	
+			p {
+				padding: 0 20px 0 20px;
+			}
 		}
+	}
+}
 
-		p {
-			padding: 0 5px 0 5px;
+@media screen and (max-width: 460px) {
+	.about-section {
+		flex-direction: column;
+
+		.about-container {
+			width: 100%;
+	
+			img {
+				width: 100%;
+				height: 100%;
+			}
+	
+			p {
+				padding: 0 20px 0 20px;
+			}
 		}
 	}
 }
@@ -128,6 +146,4 @@ $font: 'Dosis';
 			}
 		}
 	}
-
-	
 }
