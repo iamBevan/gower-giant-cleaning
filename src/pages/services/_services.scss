@@ -62,7 +62,7 @@ $border: 0px solid #ffffff;
 	line-height: 75px;
 	font-size: 30px;
 	height: 900px;
-	padding: 180px;
+	padding: 0px;
 	z-index: 3;
 	text-align: left;
 	height: auto;
@@ -72,30 +72,9 @@ $border: 0px solid #ffffff;
     .flex-container {
 		flex-direction: column;
 		font-family: 'Dosis';
+		.description-img2 { order: 1 }
+		.description-text { order: 2 }
 		
-	
-		h2 {
-			border: $border;
-			font-size: 25px;
-			letter-spacing: 2px;
-		}
-	
-		ul {
-			font-size: 15px;
-			list-style: none;
-			border: $border;
-			letter-spacing: 1px;
-			padding: 0;
-		}
-	
-		p {
-	
-			font-size: 15px;
-			line-height: 30px;
-			border: $border;
-			letter-spacing: 1px;
-			padding: 10px;
-		}
 	}
 	
 	.description-img1 {
@@ -136,6 +115,29 @@ $border: 0px solid #ffffff;
 		padding: 0px;
 		z-index: 3;
 		height: auto;
+
+		h2 {
+			border: $border;
+			font-size: 25px;
+			letter-spacing: 2px;
+		}
+	
+		ul {
+			font-size: 15px;
+			list-style: none;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 0;
+		}
+	
+		p {
+	
+			font-size: 15px;
+			line-height: 30px;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 10px;
+		}
 	}
 }
 
@@ -146,29 +148,6 @@ $border: 0px solid #ffffff;
 		.description-img2 { order: 1 }
 		.description-text { order: 2 }
 		
-	
-		h2 {
-			border: $border;
-			font-size: 25px;
-			letter-spacing: 2px;
-		}
-	
-		ul {
-			font-size: 15px;
-			list-style: none;
-			border: $border;
-			letter-spacing: 1px;
-			padding: 0;
-		}
-	
-		p {
-	
-			font-size: 15px;
-			line-height: 30px;
-			border: $border;
-			letter-spacing: 1px;
-			padding: 10px;
-		}
 	}
 	
 	.description-img1 {
@@ -209,5 +188,28 @@ $border: 0px solid #ffffff;
 		padding: 0px;
 		z-index: 3;
 		height: auto;
+
+		h2 {
+			border: $border;
+			font-size: 25px;
+			letter-spacing: 2px;
+		}
+	
+		ul {
+			font-size: 15px;
+			list-style: none;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 0;
+		}
+	
+		p {
+	
+			font-size: 15px;
+			line-height: 30px;
+			border: $border;
+			letter-spacing: 1px;
+			padding: 10px;
+		}
 	}
 }

@@ -34,6 +34,63 @@ $font: 'Dosis';
     }
 }
 
+@media screen and (max-width: 900px) {
+
+	.about-section {
+		padding: 0px 0 0px 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-container {
+		width: 600px;
+		font-family: $font;
+	
+		h1 {
+			padding: 0 0 50px 0;
+			line-height: 54px;
+			font-size: 40px;
+			margin: 0;
+			font-family: $font;
+			letter-spacing: 4px;
+		}
+	
+		p {
+			padding: 0 30px 0 30px;
+			margin: 0;
+			font-size: 20px;
+			letter-spacing: 1px;
+			text-align: justify;
+		}
+	
+		img {
+			width: 400px;
+			height: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 770px) {
+	
+	.about-section {
+		flex-direction: column;
+	}
+
+	.about-container {
+		width: 100%;
+
+		img {
+			margin: 50px 0 0 0;
+			width: 300px;
+			height: 100%;
+		}
+
+		p {
+			padding: 0 35px 0 35px;
+		}
+	}
+}
+
 @media screen and (max-width: 640px) {
 	
 	.about-section {

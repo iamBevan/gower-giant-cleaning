@@ -59,30 +59,22 @@ $font: 'Dosis';
 			border: $border;
 			padding: 0 0 40px 0;
 			font-family: $font;
-			// font-weight: 700;
 		}
 	}
 }
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
 	.services-container {
 		
 		h1 {
-			border: $border;
-			line-height: 54px;
-			font-size: 50px;
-			padding-bottom: 100px;
-			margin: 0;
-			font-family: $font;
-			letter-spacing: 4px;
+			font-size: 75px;
+			font-weight: 200;
 		}
 
 		ul {
 
 			li {
-				margin: 10px;
 				font-size: 22px;
-				letter-spacing: 2px;
+				letter-spacing: 3px;
 			}
 		}
 
@@ -95,26 +87,28 @@ $font: 'Dosis';
 			margin: 50px 0px 50px 0px;
 
 			h2 {
-				margin-top: 30px;
-				line-height: 25px;
-				font-size: 30px;
+				font-size: 36px;
 				letter-spacing: 8px;
-				border: $border;
-				padding: 0 0 40px 0;
-				font-family: $font;
-				// font-weight: 700;
+				font-weight: 400;
 			}
 		}
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 770px) {
 	.services-container {
+		
+		h1 {
+			line-height: 54px;
+			font-size: 55px;
+			padding-bottom: 100px;
+			letter-spacing: 5px;
+		}
 
 		ul {
 
 			li {
-				margin: 10px;
+				letter-spacing: 3px;
 			}
 		}
 
@@ -125,6 +119,77 @@ $font: 'Dosis';
 		.service {
 			width: 100%;
 			margin: 50px 0px 50px 0px;
+
+			h2 {
+				font-size: 35px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.services-container {
+		
+		h1 {
+			line-height: 54px;
+			font-size: 55px;
+			padding-bottom: 100px;
+			letter-spacing: 5px;
+		}
+
+		ul {
+
+			li {
+				letter-spacing: 3px;
+			}
+		}
+
+		.flex-container {
+			flex-direction: column;
+		}
+
+		.service {
+			width: 100%;
+			margin: 50px 0px 50px 0px;
+
+			h2 {
+				font-size: 35px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.services-container {
+		
+		h1 {
+			line-height: 54px;
+			font-size: 45px;
+			padding-bottom: 100px;
+			letter-spacing: 5px;
+		}
+
+		ul {
+
+			li {
+				letter-spacing: 1px;
+				font-size: 20px;
+			}
+		}
+
+		.flex-container {
+			flex-direction: column;
+		}
+
+		.service {
+			width: 100%;
+			margin: 40px 0px 40px 0px;
+
+			h2 {
+				font-size: 30px;
+				letter-spacing: 4px;
+				padding: 0 0 20px 0;
+			}
 		}
 	}
 }
