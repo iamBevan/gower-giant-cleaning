@@ -16,12 +16,12 @@ const Services: React.SFC<{}> = () => (
                     <div className="service">
                         <img src={window} alt="" />
                         <h2>Window Cleaning</h2>
-                        <ul>
-                            <li>Domestic and Commercial</li>
-                            <li>Exterior and Interior</li>
-                            <li>Water-fed Pole System</li>
-                            <li>Traditional</li>
-                        </ul>
+                            <ul>
+                                <li>Domestic and Commercial</li>
+                                <li>Exterior and Interior</li>
+                                <li>Water-fed Pole System</li>
+                                <li>Traditional</li>
+                            </ul>
                         {/* <p className="description">
                             For 40 years window cleaning has been our main area of expertise.
                             We're highly experienced and flexible enough to meet any of your cleaning needs.
@@ -32,12 +32,12 @@ const Services: React.SFC<{}> = () => (
                     <div className="service">
                         <img src={jet} alt="" />
                         <h2>Pressure Washing</h2>
-                            <ul>
-                                <li>Patios and Driveways</li>
-                                <li>Paths and Walkways</li>
-                                <li>Conservatories</li>
-                                <li>Any uPVC</li>
-                            </ul>
+                        <ul>
+                            <li>Patios and Driveways</li>
+                            <li>Paths and Walkways</li>
+                            <li>Conservatories</li>
+                            <li>Any uPVC</li>
+                        </ul>
                         {/* <p className="description">
                                 Domestic or Commerical; with our high-powered Jet washer
                                 we've been getting great results for years.

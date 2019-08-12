@@ -1,9 +1,12 @@
 import * as React from 'react';
 import Fade from 'react-reveal/Fade';
 import './_services.scss';
+import window from '../home/assets/images/window.png';
+import jet from '../home/assets/images/jet.png';
+import gut from '../home/assets/images/gut.png';
 
 const Services: React.FC<{}> = () => (
-    <section style={{ borderBottom: '1px solid #072030' }}>
+    <section>
         <div className="flex-container" style={{ color: '#072030' }}>
             <div className="description-img1">
                 &nbsp;
@@ -15,7 +18,6 @@ const Services: React.FC<{}> = () => (
                     <li>Exterior and Interior</li>
                     <li>40ft Water-fed Pole System</li>
                     <li>4 - 6 Week Cleaning Cycle</li>
-                    <li></li>
                 </ul>
                 <p>
                     We've been cleaning windows in the Gower area for the past 40 years.
@@ -27,13 +29,15 @@ const Services: React.FC<{}> = () => (
         <div className="flex-container" style={{ backgroundColor: '#072030', color: '#ffffff' }}>
             <div className="description-text">
                 <h2>Pressure Washing</h2>
-                <ul>
-                    <li>Patios and Driveways</li>
-                    <li>Paths and Walkways</li>
-                    <li>Conservatories</li>
-                    <li>Any uPVC</li>
-                    <li>450cc Machine with 30ft reach</li>
-                </ul>
+                <div className="services-list">
+                    <ul>
+                        <li><img src={jet} alt="" />Patios and Driveways</li>
+                        <li><img src={jet} alt="" />Paths and Walkways</li>
+                        <li><img src={jet} alt="" />Conservatories</li>
+                        <li><img src={jet} alt="" />Any uPVC</li>
+                        <li><img src={jet} alt="" />450cc Machine with 30ft reach</li>
+                    </ul>
+                </div>
                 <p>
                     With our high powered machine and high-reach system, we've been
                     getting incredible results for over 10 years.

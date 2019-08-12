@@ -61,7 +61,7 @@
 		}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1200px) {
 	.bgimg-1 {
 		h1 {	
 		font-size: 40px;
@@ -74,7 +74,33 @@
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 992px) {
+	.bgimg-1 {
+		h1 {	
+		font-size: 40px;
+		}
+
+		h2 {
+			font-size: 22px;
+			font-weight: 100;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.bgimg-1 {
+		h1 {	
+		font-size: 40px;
+		}
+
+		h2 {
+			font-size: 22px;
+			font-weight: 100;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
 	.bgimg-1 {
 		background-image: url('./assets/images/window-cleaning-main-mobile.jpg');
 
