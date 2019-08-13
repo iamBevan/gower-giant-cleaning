@@ -31,11 +31,11 @@ const Services: React.FC<{}> = () => (
                 <h2>Pressure Washing</h2>
                 <div className="services-list">
                     <ul>
-                        <li><img src={jet} alt="" />Patios and Driveways</li>
-                        <li><img src={jet} alt="" />Paths and Walkways</li>
-                        <li><img src={jet} alt="" />Conservatories</li>
-                        <li><img src={jet} alt="" />Any uPVC</li>
-                        <li><img src={jet} alt="" />450cc Machine with 30ft reach</li>
+                        <li>Patios and Driveways</li>
+                        <li>Paths and Walkways</li>
+                        <li>Conservatories</li>
+                        <li>Any uPVC</li>
+                        <li>450cc Machine with 30ft reach</li>
                     </ul>
                 </div>
                 <p>
