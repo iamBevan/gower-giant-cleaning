@@ -2,6 +2,7 @@ import * as React from 'react';
 import './contact.scss';
 import landingLogo from '../home/assets/images/logo.svg';
 import { email, facebook, phone, location } from '../../components/assets/svgs'
+import { GoogleMapComponent } from './GoogleMapComponent';
 
 
 const Contact: React.SFC<{}> = () => (
@@ -48,7 +49,7 @@ const Contact: React.SFC<{}> = () => (
             </div>
 
             <div className="contact-page-img">
-                &nbsp;
+                <GoogleMapComponent />
             </div>
     </section>
 );
