@@ -49,7 +49,8 @@ const Contact: React.SFC<{}> = () => (
             </div>
 
             <div className="contact-page-img">
-                <GoogleMapComponent />
+                {/* <GoogleMapComponent /> */}
+                1
             </div>
     </section>
 );
