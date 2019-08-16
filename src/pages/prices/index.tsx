@@ -6,7 +6,7 @@ import "./_prices.scss";
 const WindowsTable: React.FC<{}> = () => (
     <table className="center">
         <tr>
-            <th>Property type0</th>
+            <th>Property type</th>
             <th>Six-week cycle</th>
             <th>Conservatory</th>
             <th>Porch / Extension</th>
@@ -211,12 +211,7 @@ const GutteringTable: React.FC<{}> = () => (
 )
 
 const Prices: React.SFC<{}> = () => (
-    <section
-        style={{
-            backgroundColor: "#072030",
-            height: '100vh'
-        }}
-    >
+    <section className="prices-section">
         <Fade duration={3000}><h1 className="services-heading">Prices</h1></Fade>
         <div className="table-container">
             <Tabs>

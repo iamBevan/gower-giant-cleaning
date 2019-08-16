@@ -24,7 +24,7 @@ class Home extends React.Component<{}> {
     render() {
         return (
             <Router>
-                {alert(process.env.REACT_APP_TEST)}
+                {/* {alert(process.env.REACT_APP_TEST)} */}
                 <LandingLogo />
                 <Services />
                 <About />
