@@ -2,6 +2,8 @@ import * as React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./_prices.scss";
+import Media from 'react-media';
+import { MobileComponent } from './MobileComponent';
 
 const WindowsTable: React.FC<{}> = () => (
     <table className="center">
@@ -213,25 +215,36 @@ const GutteringTable: React.FC<{}> = () => (
 const Prices: React.SFC<{}> = () => (
     <section className="prices-section">
         <Fade duration={3000}><h1 className="services-heading">Prices</h1></Fade>
-        <div className="table-container">
-            <Tabs>
-                <TabList>
-                    <Tab>Windows</Tab>
-                    <Tab>Pressure Washing</Tab>
-                    <Tab>Guttering</Tab>
-                </TabList>
 
-                <TabPanel>
-                    <WindowsTable />
-                </TabPanel>
-                <TabPanel>
-                    <JetWashTable />
-                </TabPanel>
-                <TabPanel>
-                    <GutteringTable />
-                </TabPanel>
-                
-            </Tabs>
+        <div>
+            <Media query="(max-width: 599px)">
+                {matches =>
+                    matches ? (
+                        <MobileComponent />
+                    ) : (
+                            <div className="table-container">
+                                <Tabs>
+                                    <TabList>
+                                        <Tab>Windows</Tab>
+                                        <Tab>Pressure Washing</Tab>
+                                        <Tab>Guttering</Tab>
+                                    </TabList>
+
+                                    <TabPanel>
+                                        <WindowsTable />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <JetWashTable />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <GutteringTable />
+                                    </TabPanel>
+
+                                </Tabs>
+                            </div>
+                        )
+                }
+            </Media>
         </div>
     </section>
 );

@@ -1,4 +1,5 @@
-$font: 'Dosis', sans-serif;
+$font: 'Dosis',
+sans-serif;
 
 // a {
 //     height: 100%;
@@ -34,7 +35,7 @@ $font: 'Dosis', sans-serif;
         font-family: $font;
         font-weight: 200;
     }
-    
+
     .table-container {
         color: white;
         // width: 1200px;
@@ -45,19 +46,19 @@ $font: 'Dosis', sans-serif;
 
             margin: 65px auto;
             font-size: 25px;
-        
+
             tr {
                 text-align: center;
                 padding: 20px;
                 font-weight: 200;
-        
+
                 th {
                     padding: 20px;
                     font-weight: 400;
                     text-align: left;
                     font-size: 18px;
                 }
-        
+
                 td {
                     padding: 10px 0 10px 0;
                 }
@@ -67,12 +68,12 @@ $font: 'Dosis', sans-serif;
         .react-tabs {
             -webkit-tap-highlight-color: transparent;
         }
-        
+
         .react-tabs__tab-list {
             margin: 0 0 10px;
             padding: 0;
         }
-        
+
         .react-tabs__tab {
             display: inline-block;
             border: 0px solid transparent;
@@ -85,24 +86,24 @@ $font: 'Dosis', sans-serif;
             font-weight: 400;
             font-size: 28px;
         }
-        
+
         .react-tabs__tab--selected {
             background: #fff;
             /* border-color: #aaa; */
             color: #072030;
         }
-        
+
         .react-tabs__tab--disabled {
             color: GrayText;
             cursor: default;
         }
-        
+
         .react-tabs__tab:focus {
             box-shadow: 0 0 5px hsl(208, 99%, 50%);
             border-color: hsl(208, 99%, 50%);
             outline: none;
         }
-        
+
         .react-tabs__tab:focus:after {
             content: "";
             position: absolute;
@@ -112,13 +113,435 @@ $font: 'Dosis', sans-serif;
             bottom: -5px;
             background: #fff;
         }
-        
+
         .react-tabs__tab-panel {
             display: none;
         }
-        
+
         .react-tabs__tab-panel--selected {
             display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .prices-section {
+        height: 100vh;
+        background-color: #072030;
+        color: #fff;
+        padding: 100px 0 100px 0;
+
+        h1 {
+            font-size: 60px;
+            padding: 0 0 100px 0;
+            margin: 0;
+            letter-spacing: 5px;
+            font-family: $font;
+            font-weight: 200;
+        }
+
+        .table-container {
+            color: white;
+            // width: 1200px;
+            margin: auto;
+            font-family: $font;
+
+            table {
+
+                margin: 65px auto;
+                font-size: 25px;
+
+                tr {
+                    text-align: center;
+                    padding: 20px;
+                    font-weight: 200;
+
+                    th {
+                        padding: 20px;
+                        font-weight: 400;
+                        text-align: left;
+                        font-size: 18px;
+                    }
+
+                    td {
+                        padding: 10px 0 10px 0;
+                    }
+                }
+            }
+
+            .react-tabs {
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            .react-tabs__tab-list {
+                margin: 0 0 10px;
+                padding: 0;
+            }
+
+            .react-tabs__tab {
+                display: inline-block;
+                border: 0px solid transparent;
+                border-bottom: 0px solid white;
+                bottom: 1px;
+                position: relative;
+                list-style: none;
+                padding: 6px 12px;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 28px;
+            }
+
+            .react-tabs__tab--selected {
+                background: #fff;
+                /* border-color: #aaa; */
+                color: #072030;
+            }
+
+            .react-tabs__tab--disabled {
+                color: GrayText;
+                cursor: default;
+            }
+
+            .react-tabs__tab:focus {
+                box-shadow: 0 0 5px hsl(208, 99%, 50%);
+                border-color: hsl(208, 99%, 50%);
+                outline: none;
+            }
+
+            .react-tabs__tab:focus:after {
+                content: "";
+                position: absolute;
+                height: 5px;
+                left: -4px;
+                right: -4px;
+                bottom: -5px;
+                background: #fff;
+            }
+
+            .react-tabs__tab-panel {
+                display: none;
+            }
+
+            .react-tabs__tab-panel--selected {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .prices-section {
+        height: 100vh;
+        background-color: #072030;
+        color: #fff;
+        padding: 100px 0 100px 0;
+
+        h1 {
+            font-size: 60px;
+            padding: 0 0 100px 0;
+            margin: 0;
+            letter-spacing: 5px;
+            font-family: $font;
+            font-weight: 200;
+        }
+
+        .table-container {
+            color: white;
+            // width: 1200px;
+            margin: auto;
+            font-family: $font;
+
+            table {
+
+                margin: 65px auto;
+                padding: 0 10px 0 10px;
+                font-size: 2.5vw;
+
+                tr {
+                    text-align: center;
+                    padding: 20px;
+                    font-weight: 200;
+
+                    th {
+                        padding: 10px 5px 10px 5px;
+                        font-weight: 400;
+                        text-align: center;
+                        font-size: 3vw;
+                    }
+
+                    td {
+                        padding: 10px 0 10px 0;
+                    }
+                }
+            }
+
+            .react-tabs {
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            .react-tabs__tab-list {
+                margin: 0 0 10px;
+                padding: 0;
+            }
+
+            .react-tabs__tab {
+                display: inline-block;
+                border: 0px solid transparent;
+                border-bottom: 0px solid white;
+                bottom: 1px;
+                position: relative;
+                list-style: none;
+                padding: 6px 12px;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 5vw;
+            }
+
+            .react-tabs__tab--selected {
+                background: #fff;
+                /* border-color: #aaa; */
+                color: #072030;
+            }
+
+            .react-tabs__tab--disabled {
+                color: GrayText;
+                cursor: default;
+            }
+
+            .react-tabs__tab:focus {
+                box-shadow: 0 0 5px hsl(208, 99%, 50%);
+                border-color: hsl(208, 99%, 50%);
+                outline: none;
+            }
+
+            .react-tabs__tab:focus:after {
+                content: "";
+                position: absolute;
+                height: 5px;
+                left: -4px;
+                right: -4px;
+                bottom: -5px;
+                background: #fff;
+            }
+
+            .react-tabs__tab-panel {
+                display: none;
+            }
+
+            .react-tabs__tab-panel--selected {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .prices-section {
+        height: 100vh;
+        background-color: #072030;
+        color: #fff;
+        padding: 100px 0 100px 0;
+
+        h1 {
+            font-size: 60px;
+            padding: 0 0 100px 0;
+            margin: 0;
+            letter-spacing: 5px;
+            font-family: $font;
+            font-weight: 200;
+        }
+
+        .table-container {
+            color: white;
+            // width: 1200px;
+            margin: auto;
+            font-family: $font;
+
+            table {
+
+                margin: 65px auto;
+                padding: 0 10px 0 10px;
+                font-size: 2.5vw;
+
+                tr {
+                    text-align: center;
+                    padding: 20px;
+                    font-weight: 200;
+
+                    th {
+                        padding: 10px 5px 10px 5px;
+                        font-weight: 400;
+                        text-align: center;
+                        font-size: 3vw;
+                    }
+
+                    td {
+                        padding: 10px 0 10px 0;
+                    }
+                }
+            }
+
+            .react-tabs {
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            .react-tabs__tab-list {
+                margin: 0 0 10px;
+                padding: 0;
+            }
+
+            .react-tabs__tab {
+                display: inline-block;
+                border: 0px solid transparent;
+                border-bottom: 0px solid white;
+                bottom: 1px;
+                position: relative;
+                list-style: none;
+                padding: 6px 12px;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 5vw;
+            }
+
+            .react-tabs__tab--selected {
+                background: #fff;
+                /* border-color: #aaa; */
+                color: #072030;
+            }
+
+            .react-tabs__tab--disabled {
+                color: GrayText;
+                cursor: default;
+            }
+
+            .react-tabs__tab:focus {
+                box-shadow: 0 0 5px hsl(208, 99%, 50%);
+                border-color: hsl(208, 99%, 50%);
+                outline: none;
+            }
+
+            .react-tabs__tab:focus:after {
+                content: "";
+                position: absolute;
+                height: 5px;
+                left: -4px;
+                right: -4px;
+                bottom: -5px;
+                background: #fff;
+            }
+
+            .react-tabs__tab-panel {
+                display: none;
+            }
+
+            .react-tabs__tab-panel--selected {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .prices-section {
+        height: 100vh;
+        background-color: #072030;
+        color: #fff;
+        padding: 100px 0 100px 0;
+
+        h1 {
+            font-size: 60px;
+            padding: 0 0 100px 0;
+            margin: 0;
+            letter-spacing: 5px;
+            font-family: $font;
+            font-weight: 200;
+        }
+
+        .table-container {
+            color: white;
+            // width: 1200px;
+            margin: auto;
+            font-family: $font;
+
+            table {
+
+                margin: 65px auto;
+                font-size: 25px;
+
+                tr {
+                    text-align: center;
+                    padding: 20px;
+                    font-weight: 200;
+
+                    th {
+                        padding: 20px;
+                        font-weight: 400;
+                        text-align: left;
+                        font-size: 18px;
+                    }
+
+                    td {
+                        padding: 10px 0 10px 0;
+                    }
+                }
+            }
+
+            .react-tabs {
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            .react-tabs__tab-list {
+                margin: 0 0 10px;
+                padding: 0;
+            }
+
+            .react-tabs__tab {
+                display: inline-block;
+                border: 0px solid transparent;
+                border-bottom: 0px solid white;
+                bottom: 1px;
+                position: relative;
+                list-style: none;
+                padding: 6px 12px;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 28px;
+            }
+
+            .react-tabs__tab--selected {
+                background: #fff;
+                /* border-color: #aaa; */
+                color: #072030;
+            }
+
+            .react-tabs__tab--disabled {
+                color: GrayText;
+                cursor: default;
+            }
+
+            .react-tabs__tab:focus {
+                box-shadow: 0 0 5px hsl(208, 99%, 50%);
+                border-color: hsl(208, 99%, 50%);
+                outline: none;
+            }
+
+            .react-tabs__tab:focus:after {
+                content: "";
+                position: absolute;
+                height: 5px;
+                left: -4px;
+                right: -4px;
+                bottom: -5px;
+                background: #fff;
+            }
+
+            .react-tabs__tab-panel {
+                display: none;
+            }
+
+            .react-tabs__tab-panel--selected {
+                display: block;
+            }
         }
     }
 }
