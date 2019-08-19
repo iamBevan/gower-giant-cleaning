@@ -10,38 +10,36 @@ const Contact: React.SFC<{}> = () => (
 
             <div className="contact-page-text">
                 <img src={landingLogo} alt="" />
-                <h1>Gower Giant Cleaning</h1>
-                <h2 className="established">Established 1980</h2>
                 <div className="flex-container-list">
                     <div className="contact-page-details">
-                        <div>
-                            {email(40, 40)}
+                        <div className="contact-logo">
+                            {email(50, 50)}
                         </div>
-                        <div className="contact-page-text">
+                        <div className="contact-logo-text">
                             julian@gowergiantcleaning.co.uk
                         </div>
                     </div>
                     <div className="contact-page-details">
-                        <div>
-                            {phone(40, 40)}
+                        <div className="contact-logo">
+                            {phone(50, 50)}
                         </div>
-                        <div className="contact-page-text">
+                        <div className="contact-logo-text">
                             07843 227062
                         </div>
                     </div>
                     <div className="contact-page-details">
-                        <div>
-                            {location(40, 40)}
+                        <div className="contact-logo">
+                            {location(50, 50)}
                         </div>
-                        <div className="contact-page-text">
+                        <div className="contact-logo-text">
                             Bishopston, Swansea
                         </div>
                     </div>
                     <div className="contact-page-details">
-                        <div>
-                            {facebook(40, 40)}
+                        <div className="contact-logo">
+                            {facebook(50, 50)}
                         </div>
-                        <div className="contact-page-text">
+                        <div className="contact-logo-text">
                             Gower Giant Cleaning
                         </div>
                     </div>

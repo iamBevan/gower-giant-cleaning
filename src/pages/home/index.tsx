@@ -13,8 +13,8 @@ const LandingLogo: React.SFC<{}> = () => (
     <>
         <div className="bgimg-1">
             <img src={logoMain} alt=""/>
-            <h1>Gower Giant Cleaning</h1>
-            <h2>Established 1980</h2>
+            {/* <h1>Gower Giant Cleaning</h1>
+            <h2>Established 1980</h2> */}
         </div>
         
     </>

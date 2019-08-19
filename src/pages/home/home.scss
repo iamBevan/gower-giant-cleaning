@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap');
 
-
-/* Create a Parallax Effect */
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -12,41 +10,20 @@
 	z-index: -1;
 }
 
-/* First image (Logo. Full height) */
 .bgimg-1 {
 	background-image: url('./assets/images/water.jpg');
 	min-height: 100vh;
 	position: relative;
 	background-size: cover;
 	color: #072030;
-	padding-top: 180px;
-
-	h1 {
-        font-family: 'Cinzel';		
-		margin: 0;
-		font-size: 60px;
-		font-weight: 700;
-		z-index: 1;
-		position: relative;
-		color: white;
-    }
-
-	h2 {
-		font-family: 'Cinzel';
-		margin: -10px;
-		font-weight: 100;
-		font-size: 34px;
-		position: relative;
-		z-index: 1;
-		color: white;
-	}
 
 	img {
-		height: 300px;
-		width: 300px;
+		height: 100%;
+		width: 70vw;
 		position: relative;
 		z-index: 1;
 		color: white;
+		margin: 150px 10px 0 10px;
 	}
 
 	&:after {
@@ -63,39 +40,32 @@
 
 @media screen and (max-width: 1200px) {
 	.bgimg-1 {
-		h1 {	
-		font-size: 40px;
-		}
-
-		h2 {
-			font-size: 22px;
-			font-weight: 100;
-		}
-	}
-}
-
-@media screen and (max-width: 992px) {
-	.bgimg-1 {
-		h1 {	
-		font-size: 40px;
-		}
-
-		h2 {
-			font-size: 22px;
-			font-weight: 100;
+	
+		img {
+			height: 100%;
+			width: 85vw;
+			position: relative;
+			z-index: 1;
+			color: white;
+			margin: 150px 10px 0 10px;
 		}
 	}
 }
+
+@media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
 	.bgimg-1 {
-		h1 {	
-		font-size: 40px;
-		}
+		background-image: url('./assets/images/window-cleaning-main-mobile.jpg');
+		background-attachment: inherit;
 
-		h2 {
-			font-size: 22px;
-			font-weight: 100;
+		img {
+			height: 100%;
+			width: 80vw;
+			position: relative;
+			z-index: 1;
+			color: white;
+			margin: 200px 5px 0 5px;
 		}
 	}
 }
@@ -105,23 +75,13 @@
 		background-image: url('./assets/images/window-cleaning-main-mobile.jpg');
 		background-attachment: inherit;
 
-		h1 {
-		padding: 5px 0 0 0;	
-		font-size: 24px;
-		}
-
-		h2 {
-			padding: 5px 0 0 0;
-			font-size: 13px;
-			font-weight: 100;
-		}
-
 		img {
-			height: 150px;
-			width: 150px;
+			height: 100%;
+			width: 80vw;
 			position: relative;
 			z-index: 1;
 			color: white;
+			margin: 220px 5px 0 5px;
 		}
 	}
 }
