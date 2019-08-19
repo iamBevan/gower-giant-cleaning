@@ -3,7 +3,7 @@ import './styles/main.scss';
 import { Navbar } from './components/Navbar';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home } from './pages/home/';
-import { Services } from './pages/services';
+import { Services } from './pages/services/ServicesPage';
 import { Prices } from './pages/prices';
 import { Contact } from './pages/contact';
 import { Footer } from './components/Footer';
