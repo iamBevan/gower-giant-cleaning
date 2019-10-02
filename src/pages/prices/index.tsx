@@ -16,7 +16,7 @@ const WindowsTable: React.FC<{}> = () => (
             <th>One-off clean</th>
         </tr>
         <tr>
-            <td>Bungalow</td>
+            <td style={{ textAlign: 'left' }}>Bungalow</td>
             <td>£12.00</td>
             <td>£3.00</td>
             <td>£4.00</td>
@@ -24,7 +24,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£20.00</td>
         </tr>
         <tr>
-            <td>2 bed Semi Detached</td>
+            <td style={{ textAlign: 'left' }}>2 bed Semi Detached</td>
             <td>£12.00</td>
             <td>£3.00</td>
             <td>£2.00</td>
@@ -32,7 +32,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£20.00</td>
         </tr>
         <tr>
-            <td>3 bed Semi Detached</td>
+            <td style={{ textAlign: 'left' }}>3 bed Semi Detached</td>
             <td>£14.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
@@ -40,7 +40,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£22.00</td>
         </tr>
         <tr>
-            <td>4 bed Semi Detached</td>
+            <td style={{ textAlign: 'left' }}>4 bed Semi Detached</td>
             <td>£16.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
@@ -48,7 +48,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£24.00</td>
         </tr>
         <tr>
-            <td>4 bed Detached</td>
+            <td style={{ textAlign: 'left' }}>4 bed Detached</td>
             <td>£17.00</td>
             <td>£4.00</td>
             <td>£3.00</td>
@@ -56,7 +56,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£25.00</td>
         </tr>
         <tr>
-            <td>5 bed Semi Detached</td>
+            <td style={{ textAlign: 'left' }}>5 bed Semi Detached</td>
             <td>£18.00</td>
             <td>£5.00</td>
             <td>£4.00</td>
@@ -64,7 +64,7 @@ const WindowsTable: React.FC<{}> = () => (
             <td>£26.00</td>
         </tr>
         <tr>
-            <td>5 bed Detached</td>
+            <td style={{ textAlign: 'left' }}>5 bed Detached</td>
             <td>£19.00</td>
             <td>£5.00</td>
             <td>£4.00</td>
@@ -74,142 +74,18 @@ const WindowsTable: React.FC<{}> = () => (
     </table>
 )
 
-const JetWashTable: React.FC<{}> = () => (
-    <table className="center">
-        <tr>
-            <th>Property type1</th>
-            <th>Six-week cycle</th>
-            <th>Conservatory</th>
-            <th>Porch / Extension</th>
-            <th>Inside windows</th>
-            <th>One-off clean</th>
-        </tr>
-        <tr>
-            <td>Bungalow</td>
-            <td>£12.00</td>
-            <td>£3.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£20.00</td>
-        </tr>
-        <tr>
-            <td>2 bed Semi Detached</td>
-            <td>£12.00</td>
-            <td>£3.00</td>
-            <td>£2.00</td>
-            <td>-</td>
-            <td>£20.00</td>
-        </tr>
-        <tr>
-            <td>3 bed Semi Detached</td>
-            <td>£14.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£22.00</td>
-        </tr>
-        <tr>
-            <td>4 bed Semi Detached</td>
-            <td>£16.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£24.00</td>
-        </tr>
-        <tr>
-            <td>4 bed Detached</td>
-            <td>£17.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£25.00</td>
-        </tr>
-        <tr>
-            <td>5 bed Semi Detached</td>
-            <td>£18.00</td>
-            <td>£5.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£26.00</td>
-        </tr>
-        <tr>
-            <td>5 bed Detached</td>
-            <td>£19.00</td>
-            <td>£5.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£27.00</td>
-        </tr>
-    </table>
+const JetWash: React.FC<{}> = () => (
+    <div style={{ paddingTop: '150px', fontSize: '50px', fontWeight: 300}}>
+        Please contact Julian on <span style={{ fontWeight: 700, fontSize: '52px' }}>07843 227062</span>
+    </div>
 )
 
-const GutteringTable: React.FC<{}> = () => (
-    <table className="center">
-        <tr>
-            <th>Property type2</th>
-            <th>Six-week cycle</th>
-            <th>Conservatory</th>
-            <th>Porch / Extension</th>
-            <th>Inside windows</th>
-            <th>One-off clean</th>
-        </tr>
-        <tr>
-            <td>Bungalow</td>
-            <td>£12.00</td>
-            <td>£3.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£20.00</td>
-        </tr>
-        <tr>
-            <td>2 bed Semi Detached</td>
-            <td>£12.00</td>
-            <td>£3.00</td>
-            <td>£2.00</td>
-            <td>-</td>
-            <td>£20.00</td>
-        </tr>
-        <tr>
-            <td>3 bed Semi Detached</td>
-            <td>£14.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£22.00</td>
-        </tr>
-        <tr>
-            <td>4 bed Semi Detached</td>
-            <td>£16.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£24.00</td>
-        </tr>
-        <tr>
-            <td>4 bed Detached</td>
-            <td>£17.00</td>
-            <td>£4.00</td>
-            <td>£3.00</td>
-            <td>-</td>
-            <td>£25.00</td>
-        </tr>
-        <tr>
-            <td>5 bed Semi Detached</td>
-            <td>£18.00</td>
-            <td>£5.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£26.00</td>
-        </tr>
-        <tr>
-            <td>5 bed Detached</td>
-            <td>£19.00</td>
-            <td>£5.00</td>
-            <td>£4.00</td>
-            <td>-</td>
-            <td>£27.00</td>
-        </tr>
-    </table>
+const Guttering: React.FC<{}> = () => (
+    <>
+        <div style={{ paddingTop: '150px', fontSize: '50px', fontWeight: 300}}>
+        Please contact Julian on <span style={{ fontWeight: 700, fontSize: '52px' }}>07843 227062</span>
+    </div>
+    </>
 )
 
 const Prices: React.SFC<{}> = () => (
@@ -234,10 +110,10 @@ const Prices: React.SFC<{}> = () => (
                                         <WindowsTable />
                                     </TabPanel>
                                     <TabPanel>
-                                        <JetWashTable />
+                                        <JetWash />
                                     </TabPanel>
                                     <TabPanel>
-                                        <GutteringTable />
+                                        <Guttering />
                                     </TabPanel>
 
                                 </Tabs>
